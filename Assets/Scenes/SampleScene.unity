@@ -325,7 +325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832575517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -379,6 +379,7 @@ MonoBehaviour:
   selectableTag: Selectable
   selectedMaterial: {fileID: 2100000, guid: e61f2b4443cd68646b87e28e089c8eb7, type: 2}
   defaultMaterial: {fileID: 2100000, guid: 61b40f17f67d5d340b9416b8371681a9, type: 2}
+  tempobj: {fileID: 0}
 --- !u!1 &931615720
 GameObject:
   m_ObjectHideFlags: 0
