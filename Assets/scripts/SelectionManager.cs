@@ -7,6 +7,7 @@ public class SelectionManager : MonoBehaviour
     public string selectableTag = "Selectable";
     public Material selectedMaterial;
     public Material defaultMaterial;
+    public GameObject tempobj;
 
     private Transform _selection;
 
@@ -24,6 +25,7 @@ public class SelectionManager : MonoBehaviour
         if(Physics.Raycast(ray, out hitobject))
         {
             var selection = hitobject.transform;
+            tempobj = hitobject.collider.gameObject;
             if(selection.CompareTag(selectableTag))
             {
                 var selectionRenderer = selection.GetComponent<Renderer>();
@@ -31,6 +33,10 @@ public class SelectionManager : MonoBehaviour
                     selectionRenderer.material = selectedMaterial;
                 }
                 _selection = selection;
+
+                if (Input.GetMouseButtonDown(0)){
+                    tempobj.SetActive(false);
+                }
             }
         }
 
