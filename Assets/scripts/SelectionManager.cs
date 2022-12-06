@@ -24,6 +24,7 @@ public class SelectionManager : MonoBehaviour
         RaycastHit hitobject;
         if(Physics.Raycast(ray, out hitobject))
         {
+            Debug.Log("hello");
             var selection = hitobject.transform;
             tempobj = hitobject.collider.gameObject;
             if(selection.CompareTag(selectableTag))
