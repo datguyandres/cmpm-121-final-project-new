@@ -34,4 +34,4 @@ Point Distribution:
 5 points:
   - Included README, Build File, Video, and GitHub Repo link
   
-Video: 
+Video/Build: https://drive.google.com/drive/folders/1dc1ryZIRJyWdtJ4oqYgOcRgzVj1488i9?usp=sharing 
