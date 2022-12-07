@@ -8,6 +8,8 @@ Assets used from unity store: "Colored Parasols" by SpaceZeta, "Cowboy Hat_1" by
 "Flooded Grounds" by Sandro T, "Outdoor Ground Textures" by A Gog's Life Software, 
 "Grass Flowers Pack Free" by ALP8130, "Old Military Car" by WeisseGames
 
+Quiet Horror Story Font made by junkhanhero on 1001fonts.com
+
 Point Distribution:
 
 20 points: 
