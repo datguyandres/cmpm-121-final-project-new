@@ -4,7 +4,9 @@ We decided to make a mystery scene where the player is in a forest at night with
 cabin and must collect all five objects to unlock the car to escape the scene.
 
 Assets used from unity store: "Colored Parasols" by SpaceZeta, "Cowboy Hat_1" by Inari_Green, 
-"Simple Keys" by Gabies Assets, "Explosives Package" by Rem Storms
+"Simple Keys" by Gabies Assets, "Explosives Package" by Rem Storms, "Conifers [BOTD]" by forst,
+"Flooded Grounds" by Sandro T, "Outdoor Ground Textures" by A Gog's Life Software, 
+"Grass Flowers Pack Free" by ALP8130, "Old Military Car" by WeisseGames
 
 Point Distribution:
 
