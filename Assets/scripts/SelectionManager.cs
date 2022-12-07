@@ -23,6 +23,7 @@ public class SelectionManager : MonoBehaviour
 
     public int collected;
     public TextMeshProUGUI infotext;
+    public TextMeshProUGUI EndText;
 
     public Image fader;
 
@@ -110,6 +111,7 @@ public class SelectionManager : MonoBehaviour
         {
             yield return new WaitForSeconds(0.1f);
             fader.color = new Color(fader.color.r, fader.color.g, fader.color.b, i);
+            EndText.color = new Color(EndText.color.r, EndText.color.g, EndText.color.b, i);
             Debug.Log(i);
         }
     }
